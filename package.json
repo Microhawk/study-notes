@@ -1,0 +1,27 @@
+{
+  "name": "risinghf-wiki",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "editFm": "node utils/editFrontmatter.js"
+  },
+  "license": "Apache",
+  "devDependencies": {
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "less": "3.0.4",
+    "less-loader": "5.0.0",
+    "vuepress": "1.8.0",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.8.1",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "vue-ellipsis-text": "^1.0.3",
+    "vuetify": "^2.5.8"
+  }
+}
